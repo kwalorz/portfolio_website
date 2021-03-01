@@ -13,6 +13,7 @@
   transition: all 0.5s;
   border: none;
   cursor: pointer;
+  margin: 1rem;
 }
 
 .btn-main {
@@ -511,7 +512,7 @@ img {
   padding: 0.5rem;
 }
 #main-footer .footer-content .social .fab:hover {
-  background: #ffbc00;
+  background: rgb(37, 155, 223);
 }
 
 @media (max-width: 800px) {
