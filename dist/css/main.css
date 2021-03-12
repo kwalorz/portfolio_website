@@ -8,12 +8,14 @@
 .btn-main,
 .btn-light,
 .btn-dark {
+  border: 3px solid #fff;
   display: inline-block;
   padding: 0.8rem 2rem;
   transition: all 0.5s;
   border: none;
   cursor: pointer;
   margin: 1rem;
+  font-weight: 700;
 }
 
 .btn-main {
@@ -22,8 +24,11 @@
 }
 
 .btn-light {
-  color: #333;
-  background-color: #f4f4f4;
+  border: 2px solid #fff;
+  border-radius: 14px;
+  color: #fff;
+  background-color: rgb(37, 155, 223);
+  opacity: 0.8;
 }
 
 .btn-dark {
@@ -34,7 +39,7 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffbc00;
+  background-color: rgb(85, 185, 243);
 }
 
 .bg-main {
@@ -110,7 +115,7 @@ input[class^="btn-"]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: rgb(37, 155, 223);
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -208,8 +213,9 @@ input[class^="btn-"]:hover {
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Quicksand", sans-serif;
   line-height: 1.6;
+  font-weight: 300;
   background: #fff;
 }
 
@@ -252,6 +258,7 @@ img {
 }
 #main-nav a {
   text-decoration: none;
+  font-weight: 500;
   color: #fff;
   text-transform: uppercase;
   border-bottom: 3px transparent solid;
@@ -262,7 +269,7 @@ img {
   border-color: #ccc;
 }
 #main-nav a.current {
-  border-color: #ffbc00;
+  border-color: rgb(37, 155, 223);
 }
 
 #header-home {
@@ -292,7 +299,7 @@ img {
   grid-template-columns: repeat(4, 1fr);
 }
 #home-a .specials .fas {
-  color: #ffbc00;
+  color: rgb(37, 155, 223);
   padding-bottom: 0.4rem;
 }
 
@@ -331,9 +338,11 @@ img {
   top: 0;
   right: 0;
   font-size: 28px;
-  background: #ffbc00;
+  background: #fff;
   color: #000;
   border-radius: 50%;
+  border: solid 2px;
+  border-color: #333;
   height: 15px;
   width: 15px;
   line-height: 15px;
@@ -353,7 +362,7 @@ img {
   transition: all 1s;
 }
 #home-c .process-icon:hover {
-  background: #ffbc00;
+  background: #35d85e;
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -534,7 +543,7 @@ img {
   }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid rgb(37, 155, 223);
     background-position: 20% 30%;
   }
   #header-home .header-content {
