@@ -51,7 +51,7 @@ const sliders = function () {
   //Previous slide
   const prevSlide = function () {
     if (curSlide === 0) {
-      curSlide = maxSlide - 1;
+      curSlide = maxSlide;
     } else {
       curSlide--;
     }
